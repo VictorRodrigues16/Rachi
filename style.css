@@ -28,12 +28,14 @@ ul#menu{
     list-style: none;
     gap: 1rem;
 
+    font-weight: 500;
     font-family: "inter", sans-serif, Arial;
+    color: #6E7275;
 }
+
 nav ul li{
-  padding: 0 1rem 0 1rem;
-  color: #6E7275;
-  ;
+    padding: 0 1rem 0 1rem;
+  
 }
 
 section#banner {
