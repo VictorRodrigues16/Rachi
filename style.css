@@ -27,6 +27,7 @@ ul#menu{
     display: flex;
     list-style: none;
     gap: 1rem;
+    cursor: pointer;
 
     font-weight: 500;
     font-family: "inter", sans-serif, Arial;
@@ -43,7 +44,7 @@ section#banner {
 display: flex;
 justify-content: space-around;
 align-items: center;
-background-color: #EFF8FF;
+background-color: #ddeffc;
 
 
 }
@@ -81,8 +82,9 @@ div#text-btn-banner{
     gap: 1.5rem;
 }
 
-
 section#page2 h1{
+    margin-top: 3rem;
+    margin-bottom: 4.5rem;
     font-size: 2rem;
     display: flex;
     flex-direction: column;
@@ -95,6 +97,7 @@ section#page2 h1{
 
 
 div#images2{
+    margin-bottom: 2rem;
     display: flex;
     justify-content: space-around;
 }
@@ -102,18 +105,41 @@ div#images2{
 div#text-page-2{
     display: flex;
     justify-content: space-around;
-    width: 300;
     list-style: none;
 
+    font-size: 1.1rem;
     font-family: "Sora", sans-serif, Arial;
+    font-weight: 600;
+    color: #293145;
+
 }
 
 div#lorem{
+    margin-top: 1rem;
     display: flex;
     justify-content: space-around;
+
     font-family: "inter", sans-serif, Arial;
     font-weight: 400;
     list-style: none;
+    
     color: #6E7275;
-    ;
+    
+}
+
+div#con{
+    margin-top: 0.5rem;
+    margin-bottom: 7rem;
+    display: flex;
+    justify-content: space-around;
+
+    font-family: "inter", sans-serif, Arial;
+    font-weight: 400;
+    list-style: none;
+
+    color: #6E7275;
+    
+}
+section#page3{
+    background-color: #ddeffc;
 }
