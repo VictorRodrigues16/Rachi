@@ -95,51 +95,26 @@ section#page2 h1{
     color: #293145;
 }
 
-
-div#images2{
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: space-around;
-}
-
-div#text-page-2{
+div#page-2-all{
     display: flex;
     justify-content: space-around;
     list-style: none;
+}
 
-    font-size: 1.1rem;
+div#item1{
+
+
+}
+
+
+
+section#page2 #title{
     font-family: "Sora", sans-serif, Arial;
     font-weight: 600;
     color: #293145;
-
+    ;
 }
 
-div#lorem{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: space-around;
-
-    font-family: "inter", sans-serif, Arial;
-    font-weight: 400;
-    list-style: none;
-    
-    color: #6E7275;
-    
-}
-
-div#con{
-    margin-top: 0.5rem;
-    margin-bottom: 7rem;
-    display: flex;
-    justify-content: space-around;
-
-    font-family: "inter", sans-serif, Arial;
-    font-weight: 400;
-    list-style: none;
-
-    color: #6E7275;
-    
-}
 section#page3{
     background-color: #ddeffc;
 }
