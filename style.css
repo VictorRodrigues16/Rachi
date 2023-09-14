@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;300;500;600;700&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +15,7 @@ nav{
     align-items: center;
     gap: 30rem;
     padding: 1.2rem;
+    cursor: pointer;
 }
 
 nav img{
@@ -27,7 +27,6 @@ ul#menu{
     display: flex;
     list-style: none;
     gap: 1rem;
-    cursor: pointer;
 
     font-weight: 500;
     font-family: "inter", sans-serif, Arial;
@@ -44,8 +43,8 @@ section#banner {
 display: flex;
 justify-content: space-around;
 align-items: center;
-background-color: #ddeffc;
-
+background-color: #EFF8FF;
+padding: 5rem;
 
 }
 
@@ -72,6 +71,7 @@ button#btn-register{
     cursor: pointer;
     transition: .3s;
 }
+
 button#btn-register:hover{
 background-color: #187cc4;
 }
@@ -82,64 +82,135 @@ div#text-btn-banner{
     gap: 1.5rem;
 }
 
-section#page2 h1{
-    margin-top: 3rem;
-    margin-bottom: 4.5rem;
+section#about{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 3rem;
+    padding-bottom: 7rem;
+}
+
+section#about h2{
     font-size: 2rem;
+    font-family: "Sora", sans-serif, Arial;
+    font-weight: 600;
+    text-align: center;
+    color: #293145;
+
+}
+
+div.card-about{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
+    text-align: center;
+    width: 15rem;
+}
 
+div#cards-about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+div.card-about i{
+    color: #0F9AFE;
+    font-size: 3rem;
+}
+
+
+div.card-about h3{
     font-family: "Sora", sans-serif, Arial;
-    width: 600;
     color: #293145;
+    font-weight: 600;
 }
 
+div.card-about p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #6E7275;
+    
 
-div#images2{
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: space-around;
 }
 
-div#text-page-2{
+section#page3{
     display: flex;
-    justify-content: space-around;
-    list-style: none;
+    background-color: #EFF8FF;
+    justify-content: space-evenly;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
 
-    font-size: 1.1rem;
+section#page3 h4{
     font-family: "Sora", sans-serif, Arial;
     font-weight: 600;
+    font-size: 2rem;
     color: #293145;
 
 }
 
-div#lorem{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: space-around;
-
-    font-family: "inter", sans-serif, Arial;
-    font-weight: 400;
-    list-style: none;
-    
-    color: #6E7275;
+img#page3{
     
 }
 
-div#con{
-    margin-top: 0.5rem;
-    margin-bottom: 7rem;
+div#op{
     display: flex;
-    justify-content: space-around;
-
-    font-family: "inter", sans-serif, Arial;
-    font-weight: 400;
-    list-style: none;
-
-    color: #6E7275;
-    
+    flex-direction: column;
+    gap: 0.7rem;
 }
-section#page3{
-    background-color: #ddeffc;
+
+div#img2-page3{
+    display: flex;
+    gap: 1rem;
+
+}
+
+div#text-page3 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+div#text-page3 p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #6E7275;
+
+}
+
+section#page4{
+    padding-top: 3rem;
+}
+
+section#page4 h5{
+    font-size: 2rem;
+    font-family: "Sora", sans-serif, Arial;
+    font-weight: 600;
+    text-align: center;
+    color: #293145;
+}
+
+div#op1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+section#page4 p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #6E7275;
+
+    text-align: center;
+}
+
+div#text-one{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
 }
