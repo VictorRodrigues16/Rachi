@@ -16,7 +16,7 @@ nav{
     align-items: center;
     gap: 30rem;
     padding: 1.2rem;
-    cursor: pointer;
+
 }
 
 nav img{
@@ -24,19 +24,28 @@ width: 5rem;
 }
 
 
-ul#menu{
+div#menu{
     display: flex;
     list-style: none;
-    gap: 1rem;
+    gap: 2rem;
 
     font-weight: 500;
     font-family: "inter", sans-serif, Arial;
     color: #6E7275;
 }
 
-nav ul li{
+a{
     padding: 0 1rem 0 1rem;
-  
+    color: #6E7275;
+    text-decoration: none;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+nav a{
+    padding: 0 1rem 0 1rem;
+    color: #6E7275;
+    text-decoration: none;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 section#banner {
@@ -49,7 +58,7 @@ padding: 5rem;
 
 }
 
-section#banner div h1, p {
+section#banner div h1, section#banner p {
 
     font-size: 3rem;
     font-family: "Sora", sans-serif, Arial;
@@ -192,7 +201,7 @@ section#page4 h5{
     color: #293145;
 }
 
-.op1 li{
+.op1 p{
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 1rem;
@@ -219,9 +228,8 @@ div#text-one{
     
 }
 
-.cards li{
+.cards p{
     text-align: center;
-    padding-top: 1rem;
 }
 
 .cards{
@@ -248,10 +256,8 @@ div#text-one{
 .card1{
     padding-top: 1rem;
     background-color: #293145;
-    list-style: none;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
     width: 21rem;
     font-family: "Inter", sans-serif;
     align-items: center;
@@ -265,12 +271,9 @@ div#text-one{
 }
 
 .card{
-    
-    padding-top: 3rem;
-    list-style: none;
+    padding-top: 3rem;  
     display: flex;
     flex-direction: column;
-    align-items: baseline;
     width: 21rem;
     font-family: "Inter", sans-serif;
     align-items: center;
@@ -320,14 +323,85 @@ div#bb{
 footer{
     padding: 2rem;
     font-family: "Inter", sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 0.5rem;
-    color: #6E7275;
+    color: #293145;
+
     text-align: center;
 }
 
 section#page5{
     background-image: url(./Galery/unsplash_psGV5KhidlY.png);
     background-size: 100%;
-    padding: 10rem;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    opacity: 0.96;
+}
+
+section#page5 h1{
+    font-size: 2rem;
+    font-family: "Sora", sans-serif, Arial;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+section#page5 p{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    width: 30rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #DBDBDB;
+
+}
+
+
+div#t5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+div#sbt5{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+div#sbt5 u{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 1.1rem;
+    
+}
+
+div#cont{
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
+
+button#t5{
+    background-color: #0F9AFE;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: #0F9AFE80 3px 3px 10px 0px;  
+    width: 6rem;
+    height: 1.9rem;
+
+    font-family: "Nunito", sans-serif, Arial;
+    font-weight: 600;
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: .6s;
+}
+
+button#t5:hover{
+    background-color: #187cc4;
 }
